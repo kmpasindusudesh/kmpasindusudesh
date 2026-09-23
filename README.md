@@ -44,6 +44,7 @@ I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka s
 
 <p>
   <img src="./assets/tech-python.svg" height="42" alt="Python" />
+  <img src="./assets/tech-fastapi.svg" height="42" alt="FastAPI" />
   <img src="./assets/tech-java.svg" height="42" alt="Java" />
   <img src="./assets/tech-javascript.svg" height="42" alt="JavaScript" />
   <img src="./assets/tech-c.svg" height="42" alt="C" />

@@ -182,9 +182,9 @@
   &nbsp;
   <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=8B5CF6" alt="Email" /></a>
   &nbsp;
-  <a href="https://YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=googlechrome&logoColor=2DD4BF" alt="Portfolio" /></a>
+  <a href="https://www.instagram.com/pasindu.sudesh.3512/"><img src="https://img.shields.io/badge/Instagram-0D1117?style=flat-square&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
   &nbsp;
-  <a href="https://www.kaggle.com/YOUR_KAGGLE"><img src="https://img.shields.io/badge/Kaggle-0D1117?style=flat-square&logo=kaggle&logoColor=58A6FF" alt="Kaggle" /></a>
+  <a href="https://www.facebook.com/pasindu.sudesh.71"><img src="https://img.shields.io/badge/Facebook-0D1117?style=flat-square&logo=facebook&logoColor=1877F2" alt="Facebook" /></a>
 </p>
 
 <!-- ==================== QUOTE ==================== -->

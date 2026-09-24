@@ -43,78 +43,40 @@ I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka s
 ### Languages
 
 <p>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(122,175,255,0.4); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-python.svg" width="20" height="20" alt="Python" />Python
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(148,216,150,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-fastapi.svg" width="20" height="20" alt="FastAPI" />FastAPI
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(214,167,124,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-java.svg" width="20" height="20" alt="Java" />Java
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(175,167,236,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-javascript.svg" width="20" height="20" alt="JavaScript" />JavaScript
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(162,196,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-c.svg" width="20" height="20" alt="C" />C
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(255,176,120,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-html.svg" width="20" height="20" alt="HTML" />HTML
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(118,158,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-css.svg" width="20" height="20" alt="CSS" />CSS
-  </span>
+  <img src="./assets/tech-python.svg" width="18" height="18" alt="Python" /> Python
+  <img src="./assets/tech-fastapi.svg" width="18" height="18" alt="FastAPI" /> FastAPI
+  <img src="./assets/tech-java.svg" width="18" height="18" alt="Java" /> Java
+  <img src="./assets/tech-javascript.svg" width="18" height="18" alt="JavaScript" /> JavaScript
+  <img src="./assets/tech-c.svg" width="18" height="18" alt="C" /> C
+  <img src="./assets/tech-html.svg" width="18" height="18" alt="HTML" /> HTML
+  <img src="./assets/tech-css.svg" width="18" height="18" alt="CSS" /> CSS
 </p>
 
 ### Web &amp; mobile
 
 <p>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(42,193,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-react.svg" width="20" height="20" alt="React" />React
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(90,175,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-react-native.svg" width="20" height="20" alt="React Native" />React Native
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(142,215,164,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-nodejs.svg" width="20" height="20" alt="Node.js" />Node.js
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(85,188,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-tailwind-css.svg" width="20" height="20" alt="Tailwind CSS" />Tailwind CSS
-  </span>
+  <img src="./assets/tech-react.svg" width="18" height="18" alt="React" /> React
+  <img src="./assets/tech-react-native.svg" width="18" height="18" alt="React Native" /> React Native
+  <img src="./assets/tech-nodejs.svg" width="18" height="18" alt="Node.js" /> Node.js
+  <img src="./assets/tech-tailwind-css.svg" width="18" height="18" alt="Tailwind CSS" /> Tailwind CSS
 </p>
 
 ### AI &amp; data
 
 <p>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(224,161,93,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-tensorflow.svg" width="20" height="20" alt="TensorFlow" />TensorFlow
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(90,131,198,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-mongodb.svg" width="20" height="20" alt="MongoDB" />MongoDB
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(120,208,188,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-supabase.svg" width="20" height="20" alt="Supabase" />Supabase
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(163,170,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-mysql.svg" width="20" height="20" alt="MySQL" />MySQL
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(135,183,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-sql-server.svg" width="20" height="20" alt="SQL Server" />SQL Server
-  </span>
+  <img src="./assets/tech-tensorflow.svg" width="18" height="18" alt="TensorFlow" /> TensorFlow
+  <img src="./assets/tech-mongodb.svg" width="18" height="18" alt="MongoDB" /> MongoDB
+  <img src="./assets/tech-supabase.svg" width="18" height="18" alt="Supabase" /> Supabase
+  <img src="./assets/tech-mysql.svg" width="18" height="18" alt="MySQL" /> MySQL
+  <img src="./assets/tech-sql-server.svg" width="18" height="18" alt="SQL Server" /> SQL Server
 </p>
 
 ### Developer tools
 
 <p>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(194,120,120,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-git.svg" width="20" height="20" alt="Git" />Git
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(130,165,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-github.svg" width="20" height="20" alt="GitHub" />GitHub
-  </span>
-  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(116,151,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
-    <img src="./assets/tech-vs-code.svg" width="20" height="20" alt="VS Code" />VS Code
-  </span>
+  <img src="./assets/tech-git.svg" width="18" height="18" alt="Git" /> Git
+  <img src="./assets/tech-github.svg" width="18" height="18" alt="GitHub" /> GitHub
+  <img src="./assets/tech-vs-code.svg" width="18" height="18" alt="VS Code" /> VS Code
 </p>
 
 ## Let's connect

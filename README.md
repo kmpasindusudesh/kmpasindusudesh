@@ -43,40 +43,78 @@ I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka s
 ### Languages
 
 <p>
-  <img src="./assets/tech-python.svg" height="42" alt="Python" />
-  <img src="./assets/tech-fastapi.svg" height="42" alt="FastAPI" />
-  <img src="./assets/tech-java.svg" height="42" alt="Java" />
-  <img src="./assets/tech-javascript.svg" height="42" alt="JavaScript" />
-  <img src="./assets/tech-c.svg" height="42" alt="C" />
-  <img src="./assets/tech-html.svg" height="42" alt="HTML" />
-  <img src="./assets/tech-css.svg" height="42" alt="CSS" />
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(122,175,255,0.4); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-python.svg" width="20" height="20" alt="Python" />Python
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(148,216,150,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-fastapi.svg" width="20" height="20" alt="FastAPI" />FastAPI
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(214,167,124,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-java.svg" width="20" height="20" alt="Java" />Java
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(175,167,236,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-javascript.svg" width="20" height="20" alt="JavaScript" />JavaScript
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(162,196,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-c.svg" width="20" height="20" alt="C" />C
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(255,176,120,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-html.svg" width="20" height="20" alt="HTML" />HTML
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(118,158,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-css.svg" width="20" height="20" alt="CSS" />CSS
+  </span>
 </p>
 
 ### Web &amp; mobile
 
 <p>
-  <img src="./assets/tech-react.svg" height="42" alt="React" />
-  <img src="./assets/tech-react-native.svg" height="42" alt="React Native" />
-  <img src="./assets/tech-nodejs.svg" height="42" alt="Node.js" />
-  <img src="./assets/tech-tailwind-css.svg" height="42" alt="Tailwind CSS" />
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(42,193,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-react.svg" width="20" height="20" alt="React" />React
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(90,175,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-react-native.svg" width="20" height="20" alt="React Native" />React Native
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(142,215,164,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-nodejs.svg" width="20" height="20" alt="Node.js" />Node.js
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(85,188,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-tailwind-css.svg" width="20" height="20" alt="Tailwind CSS" />Tailwind CSS
+  </span>
 </p>
 
 ### AI &amp; data
 
 <p>
-  <img src="./assets/tech-tensorflow.svg" height="42" alt="TensorFlow" />
-  <img src="./assets/tech-mongodb.svg" height="42" alt="MongoDB" />
-  <img src="./assets/tech-supabase.svg" height="42" alt="Supabase" />
-  <img src="./assets/tech-mysql.svg" height="42" alt="MySQL" />
-  <img src="./assets/tech-sql-server.svg" height="42" alt="SQL Server" />
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(224,161,93,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-tensorflow.svg" width="20" height="20" alt="TensorFlow" />TensorFlow
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(90,131,198,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-mongodb.svg" width="20" height="20" alt="MongoDB" />MongoDB
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(120,208,188,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-supabase.svg" width="20" height="20" alt="Supabase" />Supabase
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(163,170,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-mysql.svg" width="20" height="20" alt="MySQL" />MySQL
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(135,183,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-sql-server.svg" width="20" height="20" alt="SQL Server" />SQL Server
+  </span>
 </p>
 
 ### Developer tools
 
 <p>
-  <img src="./assets/tech-git.svg" height="42" alt="Git" />
-  <img src="./assets/tech-github.svg" height="42" alt="GitHub" />
-  <img src="./assets/tech-vs-code.svg" height="42" alt="VS Code" />
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(194,120,120,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-git.svg" width="20" height="20" alt="Git" />Git
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(130,165,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-github.svg" width="20" height="20" alt="GitHub" />GitHub
+  </span>
+  <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; margin:6px; border:1px solid rgba(116,151,255,0.45); border-radius:12px; background:rgba(14,25,35,0.8); color:#e5edf7; font-weight:600;">
+    <img src="./assets/tech-vs-code.svg" width="20" height="20" alt="VS Code" />VS Code
+  </span>
 </p>
 
 ## Let's connect
@@ -90,8 +128,7 @@ I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka s
   &nbsp;
   <a href="https://www.linkedin.com/in/pasindu-sudesh-3b18a8374/"><img src="./assets/connect-linkedin.svg" width="156" alt="Pasindu Sudesh on LinkedIn" /></a>
   &nbsp;
-  <!-- INSTAGRAM_LINK_PENDING: wrap this badge in a link after the verified Instagram profile URL is supplied. -->
-  <img src="./assets/connect-instagram.svg" width="156" alt="Instagram" />
+  <a href="https://www.instagram.com/pasindu.sudesh.3512/"><img src="./assets/connect-instagram.svg" width="156" alt="Pasindu Sudesh on Instagram" /></a>
   &nbsp;
   <a href="https://github.com/kmpasindusudesh"><img src="./assets/connect-github.svg" width="156" alt="Pasindu Sudesh on GitHub" /></a>
 </p>

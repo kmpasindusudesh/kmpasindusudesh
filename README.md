@@ -23,22 +23,59 @@
 </p>
 
 <p align="center">
-  <a href="#a-little-about-me">About me</a> &nbsp; ✦ &nbsp;
-  <a href="#my-toolkit">My toolkit</a> &nbsp; ✦ &nbsp;
-  <a href="#lets-connect">Let's connect</a>
+  <a href="#a-little-about-me"><img src="https://img.shields.io/badge/About_me-7654c5?style=for-the-badge&labelColor=101024" alt="Jump to About me" /></a>
+  <a href="#my-toolkit"><img src="https://img.shields.io/badge/My_toolkit-7654c5?style=for-the-badge&labelColor=101024" alt="Jump to My toolkit" /></a>
+  <a href="#github-at-a-glance"><img src="https://img.shields.io/badge/GitHub_stats-7654c5?style=for-the-badge&labelColor=101024" alt="Jump to GitHub stats" /></a>
+  <a href="#lets-connect"><img src="https://img.shields.io/badge/Let's_connect-7654c5?style=for-the-badge&labelColor=101024" alt="Jump to Let's connect" /></a>
 </p>
 
-## A little about me
+<p align="center">
+  <img src="./assets/divider-accent.svg" width="92%" alt="" />
+</p>
 
-I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka specializing in **Artificial Intelligence**. I enjoy understanding how intelligent systems work and using technology to solve everyday problems.
+<p align="center" id="a-little-about-me">
+  <img src="./assets/section-about.svg" width="100%" alt="A little about me" />
+</p>
 
-- 🧠 **My interests:** Artificial Intelligence, Machine Learning and intelligent agents.
-- 💻 **What I enjoy:** Exploring web and mobile development, and turning ideas into useful software.
-- 🌱 **My mindset:** Keep learning, stay curious and improve a little every day.
+<p align="center">
+  I'm <strong>Pasindu Sudesh</strong>, an Information Technology undergraduate from Sri Lanka specializing in <strong>Artificial Intelligence</strong>. I enjoy understanding how intelligent systems work and using technology to solve everyday problems.
+</p>
 
-> Creativity meets code. Curiosity keeps it moving.
+<table align="center">
+  <tr>
+    <td align="center" width="320" valign="top">
+      <strong>🧠 Focus</strong>
+      <br /><br />
+      Artificial Intelligence, Machine Learning, and intelligent agents — from models to real-world use.
+    </td>
+    <td align="center" width="320" valign="top">
+      <strong>💻 Build</strong>
+      <br /><br />
+      Web and mobile apps, APIs, and software that turns ideas into something people can actually use.
+    </td>
+    <td align="center" width="320" valign="top">
+      <strong>🌱 Mindset</strong>
+      <br /><br />
+      Keep learning, stay curious, and improve a little every day — in code and in life.
+    </td>
+  </tr>
+</table>
 
-## My toolkit
+<p align="center">
+  <img src="./assets/quote-banner.svg" width="88%" alt="Creativity meets code. Curiosity keeps it moving." />
+</p>
+
+<p align="center">
+  <img src="./assets/divider-accent.svg" width="92%" alt="" />
+</p>
+
+<p align="center" id="my-toolkit">
+  <img src="./assets/section-toolkit.svg" width="100%" alt="My toolkit" />
+</p>
+
+<p align="center">
+  <sub><em>Technologies I use in AI coursework, labs, and personal projects — grouped so you can scan at a glance.</em></sub>
+</p>
 
 ### 💻 Programming languages
 
@@ -91,10 +128,34 @@ I'm **Pasindu Sudesh**, an Information Technology undergraduate from Sri Lanka s
   <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark&perline=6" alt="Git, GitHub, VS Code" />
 </p>
 
-## Let's connect
+<p align="center">
+  <img src="./assets/divider-accent.svg" width="92%" alt="" />
+</p>
+
+<p align="center" id="github-at-a-glance">
+  <img src="./assets/section-glance.svg" width="100%" alt="GitHub at a glance" />
+</p>
 
 <p align="center">
-  Let's connect, share ideas and learn from one another.
+  <img src="https://github-readme-stats.vercel.app/api?username=kmpasindusudesh&show_icons=true&hide_border=false&border_radius=16&bg_color=101024&title_color=B498FF&text_color=BAB8D8&icon_color=62E5F5&border_color=34304f" height="165" alt="GitHub stats for kmpasindusudesh" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com/?user=kmpasindusudesh&hide_border=false&border_radius=16&background=101024&ring=B498FF&fire=FF79C5&currStreakLabel=B498FF&sideNums=BAB8D8&sideLabels=BAB8D8&dates=536989&border=34304f" height="165" alt="GitHub contribution streak for kmpasindusudesh" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kmpasindusudesh&layout=compact&hide_border=false&border_radius=16&bg_color=101024&title_color=B498FF&text_color=BAB8D8&border_color=34304f&langs_count=8" height="165" alt="Top languages on GitHub for kmpasindusudesh" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider-accent.svg" width="92%" alt="" />
+</p>
+
+<p align="center" id="lets-connect">
+  <img src="./assets/section-connect.svg" width="100%" alt="Let's connect" />
+</p>
+
+<p align="center">
+  Let's connect, share ideas, and learn from one another.
 </p>
 
 <p align="center">

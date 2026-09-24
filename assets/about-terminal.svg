@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <filter id="t-glow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="line1-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="1.5s" begin="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line2-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2s" begin="2.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line3-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2s" begin="5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line4-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2.5s" begin="7.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line5-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2s" begin="10.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line6-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="1.8s" begin="13s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line7-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2s" begin="15.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="line8-clip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="2.2s" begin="18s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    @keyframes cursor-blink{0%,100%{opacity:1}50%{opacity:0}}
+    .term-text{font-family:monospace,'Courier New';font-size:13px}
+  </style>
+
+  <!-- Terminal window -->
+  <rect x="0" y="0" width="600" height="320" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="600" height="32" rx="12" fill="#161B22"/>
+  <rect x="0" y="20" width="600" height="12" fill="#161B22"/>
+  <line x1="0" y1="32" x2="600" y2="32" stroke="#30363D" stroke-width="0.5"/>
+
+  <!-- Traffic light dots -->
+  <circle cx="20" cy="16" r="5.5" fill="#FF5F57"/>
+  <circle cx="38" cy="16" r="5.5" fill="#FEBC2E"/>
+  <circle cx="56" cy="16" r="5.5" fill="#28C840"/>
+
+  <!-- Terminal title -->
+  <text x="300" y="20" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8B949E">pasindu@neural — bash</text>
+
+  <!-- Line 1: $ whoami -->
+  <g clip-path="url(#line1-clip)">
+    <text x="20" y="60" class="term-text" fill="#2DD4BF">$</text>
+    <text x="34" y="60" class="term-text" fill="#E6EDF3"> whoami</text>
+  </g>
+
+  <!-- Line 2: response -->
+  <!-- EDIT HERE: Replace with your name -->
+  <g clip-path="url(#line2-clip)">
+    <text x="20" y="85" class="term-text" fill="#58A6FF" filter="url(#t-glow)">→ Pasindu Sudesh</text>
+  </g>
+
+  <!-- Line 3: $ cat role.txt -->
+  <g clip-path="url(#line3-clip)">
+    <text x="20" y="115" class="term-text" fill="#2DD4BF">$</text>
+    <text x="34" y="115" class="term-text" fill="#E6EDF3"> cat role.txt</text>
+  </g>
+
+  <!-- Line 4: response -->
+  <!-- EDIT HERE: Replace with your university/degree -->
+  <g clip-path="url(#line4-clip)">
+    <text x="20" y="140" class="term-text" fill="#58A6FF" filter="url(#t-glow)">→ AI/ML Undergraduate @ SLIIT</text>
+  </g>
+
+  <!-- Line 5: $ cat focus.txt -->
+  <g clip-path="url(#line5-clip)">
+    <text x="20" y="170" class="term-text" fill="#2DD4BF">$</text>
+    <text x="34" y="170" class="term-text" fill="#E6EDF3"> cat focus.txt</text>
+  </g>
+
+  <!-- Line 6: response -->
+  <!-- EDIT HERE: Replace with your interests -->
+  <g clip-path="url(#line6-clip)">
+    <text x="20" y="195" class="term-text" fill="#58A6FF" filter="url(#t-glow)">→ Computer Vision, NLP, Deep Learning</text>
+  </g>
+
+  <!-- Line 7: $ ./status.sh -->
+  <g clip-path="url(#line7-clip)">
+    <text x="20" y="225" class="term-text" fill="#2DD4BF">$</text>
+    <text x="34" y="225" class="term-text" fill="#E6EDF3"> ./status.sh</text>
+  </g>
+
+  <!-- Line 8: response -->
+  <g clip-path="url(#line8-clip)">
+    <text x="20" y="250" class="term-text" fill="#2DD4BF" filter="url(#t-glow)">✓ Open to internships and collaborations</text>
+  </g>
+
+  <!-- Blinking cursor at the end -->
+  <rect x="20" y="272" width="8" height="15" rx="1" fill="#58A6FF" opacity="1">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

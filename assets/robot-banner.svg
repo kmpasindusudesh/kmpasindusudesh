@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <!-- Gradient: cyan -> violet -> teal -->
+    <linearGradient id="grad-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="grad-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="grad-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="grad-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-text">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes twinkle1 { 0%,100%{opacity:0.3} 50%{opacity:1} }
+    @keyframes twinkle2 { 0%,100%{opacity:0.5} 50%{opacity:0.15} }
+    @keyframes twinkle3 { 0%,100%{opacity:0.2} 50%{opacity:0.9} }
+    @keyframes float-up1 { 0%{transform:translateY(0);opacity:0.7} 100%{transform:translateY(-340px);opacity:0} }
+    @keyframes float-up2 { 0%{transform:translateY(0);opacity:0.5} 100%{transform:translateY(-300px);opacity:0} }
+    @keyframes float-up3 { 0%{transform:translateY(0);opacity:0.6} 100%{transform:translateY(-320px);opacity:0} }
+    @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-3px)} }
+    @keyframes arm-swing-l { 0%,40%,100%{transform:rotate(0deg)} 10%{transform:rotate(-12deg)} 20%{transform:rotate(12deg)} 30%{transform:rotate(-12deg)} }
+    @keyframes arm-swing-r { 0%,40%,100%{transform:rotate(0deg)} 10%{transform:rotate(12deg)} 20%{transform:rotate(-12deg)} 30%{transform:rotate(12deg)} }
+    @keyframes leg-swing-l { 0%,40%,100%{transform:rotate(0deg)} 10%{transform:rotate(10deg)} 20%{transform:rotate(-10deg)} 30%{transform:rotate(10deg)} }
+    @keyframes leg-swing-r { 0%,40%,100%{transform:rotate(0deg)} 10%{transform:rotate(-10deg)} 20%{transform:rotate(10deg)} 30%{transform:rotate(-10deg)} }
+    @keyframes blink { 0%,92%,96%,100%{transform:scaleY(1)} 94%{transform:scaleY(0.1)} }
+    @keyframes pulse-antenna { 0%,100%{opacity:0.4;r:4} 50%{opacity:1;r:6} }
+    @keyframes wave-hand { 0%,60%,100%{transform:rotate(0deg)} 65%{transform:rotate(-25deg)} 70%{transform:rotate(15deg)} 75%{transform:rotate(-25deg)} 80%{transform:rotate(15deg)} 85%{transform:rotate(-15deg)} 90%{transform:rotate(0deg)} }
+    @keyframes bubble-show { 0%,45%,65%,100%{opacity:0;transform:scale(0.7)} 50%,60%{opacity:1;transform:scale(1)} }
+    @keyframes dash-move { 0%{stroke-dashoffset:0} 100%{stroke-dashoffset:-24} }
+    .node{animation:twinkle1 3s ease-in-out infinite}
+    .node2{animation:twinkle2 4s ease-in-out infinite}
+    .node3{animation:twinkle3 3.5s ease-in-out infinite}
+    .particle{font-family:monospace;fill:#58A6FF;font-size:10px}
+    .p1{animation:float-up1 8s linear infinite}
+    .p2{animation:float-up2 10s linear infinite;animation-delay:2s}
+    .p3{animation:float-up3 9s linear infinite;animation-delay:4s}
+    .p4{animation:float-up1 11s linear infinite;animation-delay:1s}
+    .p5{animation:float-up2 7s linear infinite;animation-delay:5s}
+    .p6{animation:float-up3 12s linear infinite;animation-delay:3s}
+    .p7{animation:float-up1 9s linear infinite;animation-delay:6s}
+    .p8{animation:float-up2 8s linear infinite;animation-delay:7s}
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="380" fill="url(#grad-bg)" rx="0"/>
+
+  <!-- ==================== NEURAL NETWORK BACKGROUND ==================== -->
+  <!-- Layer 1 nodes (left) -->
+  <circle cx="80" cy="80" r="3" fill="#58A6FF" opacity="0.5" class="node" filter="url(#glow-soft)"/>
+  <circle cx="80" cy="150" r="3.5" fill="#8B5CF6" opacity="0.4" class="node2"/>
+  <circle cx="80" cy="220" r="3" fill="#2DD4BF" opacity="0.5" class="node3" filter="url(#glow-soft)"/>
+  <circle cx="80" cy="290" r="2.5" fill="#58A6FF" opacity="0.3" class="node"/>
+
+  <!-- Layer 2 nodes -->
+  <circle cx="220" cy="60" r="3" fill="#8B5CF6" opacity="0.4" class="node2" filter="url(#glow-soft)"/>
+  <circle cx="220" cy="130" r="3.5" fill="#58A6FF" opacity="0.5" class="node"/>
+  <circle cx="220" cy="200" r="3" fill="#2DD4BF" opacity="0.45" class="node3"/>
+  <circle cx="220" cy="270" r="3" fill="#8B5CF6" opacity="0.35" class="node2" filter="url(#glow-soft)"/>
+  <circle cx="220" cy="330" r="2.5" fill="#58A6FF" opacity="0.3" class="node"/>
+
+  <!-- Layer 3 nodes (right side) -->
+  <circle cx="980" cy="70" r="3" fill="#2DD4BF" opacity="0.4" class="node3" filter="url(#glow-soft)"/>
+  <circle cx="980" cy="140" r="3.5" fill="#58A6FF" opacity="0.5" class="node"/>
+  <circle cx="980" cy="210" r="3" fill="#8B5CF6" opacity="0.45" class="node2"/>
+  <circle cx="980" cy="280" r="3" fill="#2DD4BF" opacity="0.35" class="node3" filter="url(#glow-soft)"/>
+
+  <!-- Layer 4 nodes -->
+  <circle cx="1120" cy="90" r="3" fill="#58A6FF" opacity="0.4" class="node" filter="url(#glow-soft)"/>
+  <circle cx="1120" cy="160" r="3.5" fill="#8B5CF6" opacity="0.5" class="node2"/>
+  <circle cx="1120" cy="230" r="3" fill="#2DD4BF" opacity="0.45" class="node3"/>
+  <circle cx="1120" cy="300" r="2.5" fill="#58A6FF" opacity="0.3" class="node"/>
+
+  <!-- Neural connections left side -->
+  <line x1="80" y1="80" x2="220" y2="60" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="80" y1="80" x2="220" y2="130" stroke="#58A6FF" stroke-width="0.5" opacity="0.15"/>
+  <line x1="80" y1="150" x2="220" y2="130" stroke="#8B5CF6" stroke-width="0.5" opacity="0.2"/>
+  <line x1="80" y1="150" x2="220" y2="200" stroke="#8B5CF6" stroke-width="0.5" opacity="0.15"/>
+  <line x1="80" y1="220" x2="220" y2="200" stroke="#2DD4BF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="80" y1="220" x2="220" y2="270" stroke="#2DD4BF" stroke-width="0.5" opacity="0.15"/>
+  <line x1="80" y1="290" x2="220" y2="270" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="80" y1="290" x2="220" y2="330" stroke="#58A6FF" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Neural connections right side -->
+  <line x1="980" y1="70" x2="1120" y2="90" stroke="#2DD4BF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="980" y1="70" x2="1120" y2="160" stroke="#2DD4BF" stroke-width="0.5" opacity="0.15"/>
+  <line x1="980" y1="140" x2="1120" y2="90" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="980" y1="140" x2="1120" y2="160" stroke="#58A6FF" stroke-width="0.5" opacity="0.15"/>
+  <line x1="980" y1="210" x2="1120" y2="160" stroke="#8B5CF6" stroke-width="0.5" opacity="0.2"/>
+  <line x1="980" y1="210" x2="1120" y2="230" stroke="#8B5CF6" stroke-width="0.5" opacity="0.15"/>
+  <line x1="980" y1="280" x2="1120" y2="230" stroke="#2DD4BF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="980" y1="280" x2="1120" y2="300" stroke="#2DD4BF" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Glowing pulse along left neural lines -->
+  <circle r="2" fill="#58A6FF" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M80,80 L220,130"/>
+  </circle>
+  <circle r="2" fill="#8B5CF6" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M80,150 L220,200"/>
+  </circle>
+  <circle r="2" fill="#2DD4BF" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M80,220 L220,270"/>
+  </circle>
+
+  <!-- Glowing pulse along right neural lines -->
+  <circle r="2" fill="#2DD4BF" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M980,70 L1120,90"/>
+  </circle>
+  <circle r="2" fill="#58A6FF" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M980,140 L1120,160"/>
+  </circle>
+  <circle r="2" fill="#8B5CF6" opacity="0.8" filter="url(#glow-soft)">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M980,210 L1120,230"/>
+  </circle>
+
+  <!-- ==================== FLOATING PARTICLES (binary) ==================== -->
+  <text x="150" y="360" class="particle p1" opacity="0.5">0</text>
+  <text x="310" y="370" class="particle p2" opacity="0.4">1</text>
+  <text x="450" y="355" class="particle p3" opacity="0.5">1</text>
+  <text x="560" y="365" class="particle p4" opacity="0.3">0</text>
+  <text x="700" y="350" class="particle p5" opacity="0.5">1</text>
+  <text x="850" y="370" class="particle p6" opacity="0.4">0</text>
+  <text x="1000" y="360" class="particle p7" opacity="0.5">1</text>
+  <text x="1100" y="355" class="particle p8" opacity="0.3">0</text>
+  <text x="400" y="375" class="particle p2" opacity="0.3">0</text>
+  <text x="650" y="368" class="particle p5" opacity="0.4">1</text>
+  <text x="900" y="358" class="particle p1" opacity="0.3">1</text>
+  <text x="200" y="350" class="particle p6" opacity="0.4">0</text>
+
+  <!-- ==================== TITLE TEXT ==================== -->
+  <!-- EDIT HERE: Replace "Pasindu Sudesh" with your name -->
+  <text x="600" y="60" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="bold" font-size="42" fill="url(#grad-title)" filter="url(#glow-text)">Pasindu Sudesh</text>
+  <text x="600" y="90" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="16" fill="#8B949E">AI &amp; Machine Learning Undergraduate</text>
+
+  <!-- ==================== GROUND LINE ==================== -->
+  <line x1="0" y1="345" x2="1200" y2="345" stroke="#30363D" stroke-width="1.5" opacity="0.6"/>
+  <line x1="0" y1="345" x2="1200" y2="345" stroke="url(#grad-line)" stroke-width="1" stroke-dasharray="8 4" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ==================== ROBOT CHARACTER ==================== -->
+  <g filter="url(#glow)">
+    <!-- Robot moves left->right->left -->
+    <animateTransform attributeName="transform" type="translate" values="100,0; 900,0; 100,0" dur="14s" repeatCount="indefinite" calcMode="linear"/>
+
+    <!-- Robot body group with bob -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="0.6s" repeatCount="indefinite"/>
+
+      <!-- Body -->
+      <rect x="-18" y="290" width="36" height="30" rx="6" fill="#161B22" stroke="#58A6FF" stroke-width="1.5"/>
+      <!-- Chest detail -->
+      <rect x="-8" y="298" width="16" height="4" rx="2" fill="#8B5CF6" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Head -->
+      <rect x="-22" y="256" width="44" height="32" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.5"/>
+
+      <!-- Eyes (visor) -->
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1,1;1,0.1;1,1" dur="4s" repeatCount="indefinite" additive="sum" origin="0 275"/>
+        <rect x="-15" y="266" width="12" height="8" rx="3" fill="#58A6FF" opacity="0.9">
+          <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="3" y="266" width="12" height="8" rx="3" fill="#58A6FF" opacity="0.9">
+          <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <!-- Mouth -->
+      <line x1="-6" y1="280" x2="6" y2="280" stroke="#2DD4BF" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- Antenna stick -->
+      <line x1="0" y1="256" x2="0" y2="242" stroke="#8B949E" stroke-width="1.5"/>
+      <!-- Antenna light (pulsing) -->
+      <circle cx="0" cy="239" r="4" fill="#2DD4BF" opacity="0.6" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Left arm -->
+      <g transform-origin="-18 295">
+        <animateTransform attributeName="transform" type="rotate" values="0;-12;12;-12;0;0;0;0;0;0" dur="1.4s" repeatCount="indefinite"/>
+        <rect x="-30" y="293" width="14" height="6" rx="3" fill="#161B22" stroke="#8B5CF6" stroke-width="1"/>
+      </g>
+
+      <!-- Right arm (waves) -->
+      <g transform-origin="18 295">
+        <animateTransform attributeName="transform" type="rotate" values="0;12;-12;12;0;0;0;0;0;0;0;-25;15;-25;15;-15;0;0;0;0" dur="14s" repeatCount="indefinite"/>
+        <rect x="16" y="293" width="14" height="6" rx="3" fill="#161B22" stroke="#8B5CF6" stroke-width="1"/>
+      </g>
+
+      <!-- Left leg -->
+      <g transform-origin="-8 320">
+        <animateTransform attributeName="transform" type="rotate" values="0;10;-10;10;0;0;0;0;0;0" dur="1.4s" repeatCount="indefinite"/>
+        <rect x="-14" y="320" width="10" height="16" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <rect x="-14" y="332" width="12" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      </g>
+
+      <!-- Right leg -->
+      <g transform-origin="8 320">
+        <animateTransform attributeName="transform" type="rotate" values="0;-10;10;-10;0;0;0;0;0;0" dur="1.4s" repeatCount="indefinite"/>
+        <rect x="4" y="320" width="10" height="16" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <rect x="2" y="332" width="12" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      </g>
+
+      <!-- Speech bubble — shows periodically -->
+      <!-- EDIT HERE: Replace "Pasindu" with your name -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0;1;1;1;0;0;0;0;0;0" dur="14s" repeatCount="indefinite"/>
+        <rect x="20" y="230" width="130" height="28" rx="8" fill="#161B22" stroke="#58A6FF" stroke-width="1" opacity="0.95"/>
+        <polygon points="18,248 28,244 28,252" fill="#161B22" stroke="#58A6FF" stroke-width="1"/>
+        <text x="85" y="249" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E6EDF3">Hi, I'm Pasindu! 👋</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== EXTRA AMBIENT NODES ==================== -->
+  <circle cx="350" cy="180" r="2" fill="#58A6FF" opacity="0.25" class="node2" filter="url(#glow-soft)"/>
+  <circle cx="500" cy="140" r="1.5" fill="#8B5CF6" opacity="0.2" class="node3"/>
+  <circle cx="700" cy="160" r="2" fill="#2DD4BF" opacity="0.25" class="node" filter="url(#glow-soft)"/>
+  <circle cx="850" cy="130" r="1.5" fill="#58A6FF" opacity="0.2" class="node2"/>
+  <circle cx="400" cy="300" r="1.5" fill="#8B5CF6" opacity="0.2" class="node"/>
+  <circle cx="750" cy="280" r="2" fill="#2DD4BF" opacity="0.2" class="node3" filter="url(#glow-soft)"/>
+  <circle cx="600" cy="320" r="1.5" fill="#58A6FF" opacity="0.15" class="node2"/>
+
+  <!-- Ambient connecting lines -->
+  <line x1="350" y1="180" x2="500" y2="140" stroke="#58A6FF" stroke-width="0.3" opacity="0.12"/>
+  <line x1="500" y1="140" x2="700" y2="160" stroke="#8B5CF6" stroke-width="0.3" opacity="0.12"/>
+  <line x1="700" y1="160" x2="850" y2="130" stroke="#2DD4BF" stroke-width="0.3" opacity="0.12"/>
+</svg>

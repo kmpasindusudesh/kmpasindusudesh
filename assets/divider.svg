@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    <linearGradient id="dg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#58A6FF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#2DD4BF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dg-glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="pulse-grad">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    @keyframes nd-tw1{0%,100%{opacity:0.3}50%{opacity:1}}
+    @keyframes nd-tw2{0%,100%{opacity:0.5}50%{opacity:0.2}}
+  </style>
+  <!-- Base line -->
+  <line x1="100" y1="20" x2="1100" y2="20" stroke="url(#dg)" stroke-width="1" opacity="0.5"/>
+  <!-- Glowing pulse that travels -->
+  <circle r="5" fill="url(#pulse-grad)" filter="url(#dg-glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M100,20 L1100,20"/>
+  </circle>
+  <circle r="3" fill="#8B5CF6" opacity="0.6" filter="url(#dg-glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M1100,20 L100,20"/>
+  </circle>
+  <!-- Tiny nodes along the line -->
+  <circle cx="200" cy="20" r="2" fill="#58A6FF" opacity="0.4" style="animation:nd-tw1 3s ease-in-out infinite"/>
+  <circle cx="350" cy="20" r="1.5" fill="#8B5CF6" opacity="0.3" style="animation:nd-tw2 4s ease-in-out infinite"/>
+  <circle cx="500" cy="20" r="2" fill="#2DD4BF" opacity="0.4" style="animation:nd-tw1 3.5s ease-in-out infinite"/>
+  <circle cx="600" cy="20" r="2.5" fill="#58A6FF" opacity="0.5" style="animation:nd-tw2 2.5s ease-in-out infinite" filter="url(#dg-glow)"/>
+  <circle cx="700" cy="20" r="1.5" fill="#8B5CF6" opacity="0.3" style="animation:nd-tw1 4s ease-in-out infinite"/>
+  <circle cx="850" cy="20" r="2" fill="#2DD4BF" opacity="0.4" style="animation:nd-tw2 3s ease-in-out infinite"/>
+  <circle cx="1000" cy="20" r="1.5" fill="#58A6FF" opacity="0.3" style="animation:nd-tw1 3.5s ease-in-out infinite"/>
+</svg>
